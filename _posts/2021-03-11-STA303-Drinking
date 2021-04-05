@@ -1,0 +1,17 @@
+---
+layout: post
+title: "STA303, Week 8 Writing"
+date: 2021-03-11
+---
+Background& Aim: Drinking is not uncommon among adults, especially nowadays. An objective of this study is to investigate what factors, such as off-campus living and sex, are related to whether students drink.
+
+Methods: This study is based on data set weekendDrinks.csv, containing data provided by 77 students in an introductory statistics course. the response of interest is the respondent’s report of the number of alcoholic drinks they consumed the previous weekend, whether the student lives off.campus, and sex. We will also consider whether a student is likely a firstYear student based on the dorm they live in. We first fit a simple Poisson model with the covariates off.campus and sex.
+
+Results: In average, female students live on campus drink 1.138 times. Holding everything else constant, students live off campus are twice likely to drink compared to those live in campus. Also, holding everything else constant, male students are three times likely to drink compared to female students. Both covariates are statistically significant, but a goodness-of-fit test reveals that there remains significant lack-of-fit. In the absence of important missing covariates or extreme observations, this lack-of-fit may be explained by the presence of a group of non-drinkers. 
+
+Conclusion: Both covariates are statistically significant and affect average number of drinking. Further steps like ZIP model is needed to solve the lack of fit.
+
+
+
+
+
